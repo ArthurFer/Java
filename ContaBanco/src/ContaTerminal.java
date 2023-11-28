@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// Programa para exercitar conhecimentos de sintaxe Java. É solicitado ao usuário dados de cadastro de uma conta bancária e ao final é exibido uma saída no terminal validando a criação da conta
 public class ContaTerminal {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
