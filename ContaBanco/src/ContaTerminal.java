@@ -8,11 +8,19 @@ public class ContaTerminal {
         String agencia = "";
         String nome = "";
         double saldo = 0.0;
+        boolean condParada = true;
 
         System.out.println("Digite o número da Agência:");
         agencia = input.next();
-        System.out.println("Digite o número da conta:");
-        numero = input.nextInt();
+
+        while (condParada){
+            try {
+                System.out.println("Digite o número da conta:");
+                numero = input.nextInt();
+            } catch ()
+        }
+
+
         System.out.println("Digite o nome do titular:");
         nome = input.next();
         System.out.println("Digite o valor para depósito:");
